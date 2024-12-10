@@ -1,11 +1,11 @@
 # README
 
-## GROUP <add-group-name>
+## GROUP <GROUP-5>
 
-- Member 1: <add-name>
-- Member 2: <add-name>
-- Member 3: <add-name>
-- Member 4: <add-name>
+- Member 1: <DUC-ANH>
+- Member 2: <HIEN-TRANG>
+- Member 3: <HUONG-TRA>
+- Member 4: <PHUONG-UYEN>
 
 ## Starting server
 
