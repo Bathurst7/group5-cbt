@@ -36,8 +36,8 @@
           <%= form.text_field :price, class: input_class %>
       </div>
   <div class="mb-6">
-        <%= form.label :category_id, class: label_class %>
-          <%= form.text_field :category_id, class: input_class %>
+        <%= form.label :category_id, "Category" %>
+          <%= form.collection_select :category_id, Category.all, :id, :category_name, prompt: "Select a Category" %>
       </div>
 
 <%= form.submit class: button_class(theme: 'primary') %>

@@ -13,11 +13,11 @@
 
   <div class="mb-6">
         <%= form.label :order_id, class: label_class %>
-          <%= form.text_field :order_id, class: input_class %>
+          <%= form.collection_select :order_id, Order.all, :id, :display_order_details, prompt: "Select an Order" %>
       </div>
   <div class="mb-6">
         <%= form.label :product_id, class: label_class %>
-          <%= form.text_field :product_id, class: input_class %>
+          <%= form.collection_select :product_id, Product.all, :id, :product_name, prompt: "Select a Product" %>
       </div>
   <div class="mb-6">
         <%= form.label :quantity, class: label_class %>
