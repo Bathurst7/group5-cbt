@@ -2,10 +2,10 @@
 
 ## GROUP <GROUP-5>
 
-- Member 1: <DUC-ANH>
-- Member 2: <HIEN-TRANG>
-- Member 3: <HUONG-TRA>
-- Member 4: <PHUONG-UYEN>
+- Member 1: DUC ANH
+- Member 2: HIEN TRANG
+- Member 3: HUONG TRA
+- Member 4: PHUONG UYEN
 
 ## Starting server
 
