@@ -45,9 +45,9 @@ module ApplicationHelper
 
     case theme
     when themes[:primary]
-      "bg-indigo-600 hover:bg-indigo-700 text-white"
-    when themes[:secondary]
       "bg-teal-600 hover:bg-teal-700 text-white"
+    when themes[:secondary]
+      "bg-indigo-600 hover:bg-indigo-700 text-white"
     when themes[:transparent]
       "bg-transparent hover:bg-gray-100 text-gray-700"
     when themes[:dark]
