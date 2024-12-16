@@ -2,9 +2,15 @@ class ProductsController < ApplicationController
   before_action :set_product, only: %i[ show edit update destroy ]
 
   # GET /products or /products.json
+  # GET /products or /products.json
   def index
-    @products = Product.all
+    if params[:category_id].present?
+      @products = Product.where(category_id: params[:category_id])
+    else
+      @products = Product.all
+    end
   end
+
 
   # GET /products/1 or /products/1.json
   def show
