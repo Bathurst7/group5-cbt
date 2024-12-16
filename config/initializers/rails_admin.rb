@@ -1,4 +1,5 @@
 RailsAdmin.config do |config|
+  config.main_app_name = ["Group 5", "Cosmetic Store's admin"]
   config.asset_source = :sprockets
 
   ### Popular gems integration
